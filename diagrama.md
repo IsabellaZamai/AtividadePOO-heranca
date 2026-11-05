@@ -50,3 +50,17 @@ Funcionario CLT->
 
 Funcionario PJ->
 Salario = Lucro - gastos
+
+
+
+Respostas: 
+Explique com suas palavras o que é herança.
+Herança oque é passado de um para o outro normalmente o parente.
+
+Qual a diferença entre private e protected?
+o private é acessivel só dentro da própria classe que o declarou.
+
+o protected é acessivel na classe e na suas heranças.
+
+O que significa sobrescrever um método?
+e uma classe que recebeu herança redefinindo ou completando a classe mae
