@@ -25,13 +25,13 @@ class FuncionarioPJ extends Funcionario {
     public function getDados()
     {
         return "
-        Nome: {$this->nome}\n
-        E-mail: {$this->email}\n
-        Telefone: {$this->telefone}\n
-        CPF: {$this->cpf}\n
-        Valor do contrato: R$ {$this->valorContrato}\n
-        Gastos: R$ {$this->gastos}\n
-        Lucro: R$ {$this->calcularLucro()}\n";
+Nome: {$this->nome}
+E-mail: {$this->email}
+Telefone: {$this->telefone}
+ CPF: {$this->cpf}
+Valor do contrato: R$ {$this->valorContrato}
+ Gastos: R$ {$this->gastos}
+Lucro: R$ {$this->calcularLucro()}\ngi";
     }
 }
 ?>

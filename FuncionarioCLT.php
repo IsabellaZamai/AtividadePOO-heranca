@@ -30,14 +30,14 @@ class FuncionarioCLT extends Funcionario {
     public function getDados()
     {
         return "
-        Nome: {$this->nome}\n
-        E-mail: {$this->email}\n
-        Telefone: {$this->telefone}\n
-        CPF: {$this->cpf}\n
-        Salário: R$ {$this->salario}\n
-        Férias: R$ {$this->receberFerias()}\n
-        13º salário: R$ {$this->receberDecimoTerceiro()}\n
-        FGTS: R$ {$this->calcularFGTS()}\n";
+Nome: {$this->nome}
+E-mail: {$this->email}
+Telefone: {$this->telefone}
+CPF: {$this->cpf}
+Salário: R$ {$this->salario}
+Férias: R$ {$this->receberFerias()}
+13º salário: R$ {$this->receberDecimoTerceiro()}
+FGTS: R$ {$this->calcularFGTS()}\n";
     }
 }
 ?>
